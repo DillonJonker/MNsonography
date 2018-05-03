@@ -1,0 +1,84 @@
+html {
+  font-family: 'Catamaran', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/cover.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  border: 1px solid black;
+  clip-path: polygon(0 0, 100% 0%,100% 75vh, 0% 100%);
+
+}
+header img {
+  margin-left: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  position: fixed;
+  background-color: #FFF;
+  width: 900px;
+  margin-top: 30px;
+  border: 1px solid black;
+  z-index: 5;
+}
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+
+}
+#buttons span {
+  margin-right: 5px;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: gray;
+  padding: 10px;
+  font-family: 'Do Hyeon' sans-serif;
+
+}
+a:hover {
+  color: black;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(125, 240, 218);
+  text-decoration: none;
+}
+.services {
+  background-image: url(http://3.bp.blogspot.com/-_CTl2FbOe5Q/Uh8uLeN8XjI/AAAAAAAACAw/YXdZUomiMpU/s1600/Background-Baby4.jpg);
+  display: flex;
+  overflow: scroll;
+  flex-direction: row;
+  border: 5px solid white;
+  border-radius: 25px;
+
+}
+.services span {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 440px;
+  margin-right: 10px;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: underline;
+  word-spacing: 0.5;
+  line-height: 2.5rem;
+  font-family: 'Do Hyeon' sans-serif;
+}
